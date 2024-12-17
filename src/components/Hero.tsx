@@ -42,7 +42,7 @@ export const Hero = () => {
       {/* Footer */}
       <footer className="relative z-10 mt-8 py-4 text-gray-400 text-sm">
         <p>
-          Made by <span className="font-semibold text-purple-400">Sreevallabh Kakarala </span> 
+          Made with ❤️ by <span className="font-semibold text-purple-400">Sreevallabh Kakarala</span>
         </p>
       </footer>
     </div>
