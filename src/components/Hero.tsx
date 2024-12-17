@@ -4,14 +4,12 @@ import { Sparkles, Lock, Rocket } from 'lucide-react';
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-between overflow-hidden bg-gradient-to-b from-black via-purple-900 to-black">
-      {/* Background stars */}
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black via-purple-900 to-black">
       <div className="absolute inset-0 z-0">
         <div className="stars"></div>
       </div>
-
-      {/* Main content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-12">
+      
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="animate-float">
           <Lock className="w-16 h-16 mx-auto mb-6 text-purple-400" />
         </div>
@@ -38,13 +36,6 @@ export const Hero = () => {
           </Link>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="relative z-10 mt-8 py-4 text-gray-400 text-sm">
-        <p>
-          Made with ❤️ by <span className="font-semibold text-purple-400">Sreevallabh Kakarala</span>
-        </p>
-      </footer>
     </div>
   );
-};
+}
