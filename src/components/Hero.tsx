@@ -34,9 +34,7 @@ export const Hero = () => {
             Interactive Tools
             <Sparkles className="inline-block ml-2 w-5 h-5" />
           </Link>
-          <p>
-          Made with ❤️ by <span className="font-semibold text-purple-400">Sreevallabh Kakarala</span>
-        </p>
+         
         </div>
       </div>
     </div>
